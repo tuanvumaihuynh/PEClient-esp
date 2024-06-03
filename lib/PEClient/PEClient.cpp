@@ -30,7 +30,7 @@ void PEClient::begin()
             for (;;)
             {
                 peClient->loop();
-                delay(10);
+                vTaskDelay(10);
             }
         },
         "PEClientTask",
