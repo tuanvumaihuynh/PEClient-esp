@@ -20,6 +20,7 @@ public:
   PEClient(const char *wifiSSID, const char *wifiPassword, const char *mqttServer, int mqttPort, const char *clientId, const char *username, const char *password);
   void begin();
   void loop();
+  boolean connected();
 
   void sendMetric(unsigned long timestamp, const char *key, double value);
 

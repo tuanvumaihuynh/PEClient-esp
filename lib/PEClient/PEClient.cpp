@@ -51,6 +51,11 @@ void PEClient::loop()
     _client.loop();
 }
 
+boolean PEClient::connected()
+{
+    return _client.connected();
+}
+
 void PEClient::initWiFi()
 {
     WiFi.mode(WIFI_STA);
