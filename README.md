@@ -1,8 +1,8 @@
-# EPClient Library for ESP32
+# PEClient Library for ESP32
 
 ## Introduction
 
-EPClient is a simple and efficient library for ESP32, using for demo graduation project. It provides a simple way to connect to a WiFi network and communicate with an MQTT server.
+PEClient is a simple and efficient library for ESP32, using for demo graduation project. It provides a simple way to connect to a WiFi network and communicate with an MQTT server.
 
 ## Features
 
